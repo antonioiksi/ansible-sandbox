@@ -1,0 +1,5 @@
+---
+- hosts: clients
+  tasks:
+    - name: Simple ping
+      command: python print.py
